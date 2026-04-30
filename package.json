@@ -1,23 +1,26 @@
 {
   "name": "god-level-sticker-engine",
   "version": "3.0.0",
-  "description": "Project Titan V3.0 — Node.js Edition. Owner: @RUHI_VIG_QNR",
+  "description": "Project Titan V3.0 Node.js Edition",
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "start":   "node index.js",
-    "install-ffmpeg": "node -e \"require('ffmpeg-static')\""
+    "start": "node index.js"
   },
   "dependencies": {
-    "grammy":                          "^1.21.1",
-    "better-sqlite3":                  "^9.4.3",
-    "ffmpeg-static":                   "^5.2.0",
-    "fluent-ffmpeg":                   "^2.1.3",
-    "sharp":                           "^0.33.3",
-    "@napi-rs/canvas":                 "^0.1.51",
-    "express":                         "^4.18.3",
-    "@imgly/background-removal-node":  "^1.4.5",
-    "gramjs":                          "^2.22.2",
-    "axios":                           "^1.6.8"
+    "grammy":          "^1.21.1",
+    "better-sqlite3":  "^9.4.3",
+    "ffmpeg-static":   "^5.2.0",
+    "fluent-ffmpeg":   "^2.1.3",
+    "sharp":           "^0.33.3",
+    "@napi-rs/canvas": "^0.1.51",
+    "express":         "^4.18.3",
+    "axios":           "^1.6.8",
+    "telegram":        "^2.22.2",
+    "input":           "^1.0.1"
+  },
+  "optionalDependencies": {
+    "@imgly/background-removal-node": "^1.4.5"
   },
   "engines": {
     "node": ">=18.0.0"

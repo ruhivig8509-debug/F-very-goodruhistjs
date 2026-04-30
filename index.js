@@ -51,8 +51,8 @@ const express = require('express');
 // ── UserBot (optional) ────────────────────────────────────────────────────────
 let TelegramClient, StringSession;
 try {
-  ({ TelegramClient } = require('gramjs'));
-  ({ StringSession }  = require('gramjs/sessions'));
+  ({ TelegramClient } = require('telegram'));
+  ({ StringSession }  = require('telegram/sessions'));
 } catch (_) { /* gramjs is optional */ }
 
 // ==============================================================================
